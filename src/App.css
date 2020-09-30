@@ -1,0 +1,12 @@
+body {
+    background-color: #e9ebee;
+}
+
+.app__page {
+    display: flex;
+}
+
+.app__posts {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #3f5d9a;
+    height: 83px;
+    overflow:hidden;
+}
+
+.header__logo {
+    height: 78px;
+    object-fit: contain;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.header__button {
+    width: 138px;
+    height: 30px;
+    color :#fff;
+    font-weight: 500;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-color: #42b72a;
+    border: none;
+    position: relative;
+    float: left;
+    display: flex;
+    margin-right: 770px;
+}
+
+.header__button:hover {
+    background-color: #32971e;
+    transition: 0.2s;
+}
